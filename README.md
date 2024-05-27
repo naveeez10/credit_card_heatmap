@@ -23,7 +23,8 @@ This Flutter project implements a widget to visualize credit card transactions o
 
    ```bash
    git clone https://github.com/naveeez10/credit-card-heatmap.git
-   cd credit-card-heatmap ```
+   cd credit-card-heatmap
+   ```
 
 2. **Install Dependencies**:
 
