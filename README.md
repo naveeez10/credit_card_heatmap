@@ -38,3 +38,6 @@ This Flutter project implements a widget to visualize credit card transactions o
     flutter run
     ```
 
+
+**Preview**
+[heatmap_preview.webm](https://github.com/naveeez10/credit_card_heatmap/assets/82606644/3fccb8b9-4d7a-4787-9a06-7d498afdfc64)
