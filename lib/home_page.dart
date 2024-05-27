@@ -12,8 +12,8 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
       appBar: AppBar(
+        backgroundColor: Colors.amber[50],
         title: const Text('Credit Card Heatmap'),
       ),
       body: const Center(
