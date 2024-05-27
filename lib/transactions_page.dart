@@ -58,7 +58,7 @@ class _TransactionPageState extends State<TransactionPage> {
                             'Transaction ${index + 1}',
                             style: TextStyle(
                               fontSize: 15.sp,
-                              fontWeight: FontWeight.bold,
+                              fontWeight: FontWeight.w700,
                               color: Colors.white,
                             ),
                           ),
@@ -67,7 +67,8 @@ class _TransactionPageState extends State<TransactionPage> {
                             'Amount: ₹${transaction.amount}',
                             style: TextStyle(
                               fontSize: 12.sp,
-                              color: Colors.white70,
+                              color: Colors.white,
+                              fontWeight: FontWeight.w500,
                             ),
                           ),
                         ],
@@ -76,7 +77,8 @@ class _TransactionPageState extends State<TransactionPage> {
                         transaction.description,
                         style: TextStyle(
                           fontSize: 12.sp,
-                          color: Colors.white70,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500,
                         ),
                       ),
                     ],

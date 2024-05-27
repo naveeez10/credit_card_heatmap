@@ -15,7 +15,7 @@ List<Transaction> generateMockTransactions() {
           id: mockUUID(),
           dateTime: date.add(Duration(minutes: mockInteger(0, 1440))),
           amount: mockInteger(1, 1000),
-          description: mockString(),
+          description: "This is a test transaction",
         ),
       );
     }
