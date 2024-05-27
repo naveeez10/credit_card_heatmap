@@ -16,10 +16,8 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text('Credit Card Heatmap'),
       ),
-      body: Center(
-        child: HeatMapWidget(
-          startDate: DateTime(2024, 1, 1),
-        ),
+      body: const Center(
+        child: HeatMapWidget(),
       ),
     );
   }

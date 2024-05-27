@@ -147,6 +147,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.11.0"
+  mock_data:
+    dependency: "direct main"
+    description:
+      name: mock_data
+      sha256: "7b6de66790583ac7373ae9c05d2184b45d51f6d1a2a4fe9491a18b24cb455689"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.1"
   path:
     dependency: transitive
     description:
