@@ -1,16 +1,39 @@
-# credit_card_heatmap
+# Credit Card Transactions Visualization Widget
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This Flutter project implements a widget to visualize credit card transactions over the past year. Inspired by GitHub's contribution graph, the widget displays a grid of blocks representing each day, with the color shade indicating the total amount spent. Users can click on any day's block to view detailed transactions for that day.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Daily Transaction Blocks**: Each block represents a day in the past year, color-coded based on spending levels.
+- **Consolidated View**: Aggregates all transactions per day to show the total amount spent.
+- **Interactivity**: Users can click on a specific day's block to view a list of transactions for that day.
+- **Responsive Design**: Ensures compatibility with various screen sizes.
+- **Mock Data**: Uses mock transaction data for testing purposes.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Requirements
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter SDK
+- Dart programming language
+
+## Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/naveeez10/credit-card-heatmap.git
+   cd credit-card-heatmap ```
+
+2. **Install Dependencies**:
+
+    ```bash
+    flutter pub get
+    ```
+
+3. **Run the app**
+
+    ```bash
+    flutter run
+    ```
+
